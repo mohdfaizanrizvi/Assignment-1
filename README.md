@@ -6,7 +6,7 @@
 This app will allow clients to connect their fb accounts, listen to their comments or messenger messages and reply to them within the application.
 
 <h1 align="center">
-  <img src="./data/1.png" width=500 alt="Spider">
+  <img src="https://github.com/anubis-me/task101/blob/main/data/1.png" width=500 alt="Spider">
 </h1>
 
 ## Key Features
