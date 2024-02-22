@@ -1,25 +1,24 @@
-// App.js
-
+// App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoginPage from './components/LoginPage';
-import RegisterPage from './components/RegisterPage';
-import ConnectPage from './components/ConnectPage';
-import DeletePage from './components/DeletePage';
-import AgentScreen from './components/AgentScreen.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RegisterScreen from './components/RegisterScreen';
+import LoginScreen from './components/LoginScreen';
+import FacebookIntegrationPage from './components/FacebookIntegrationPage';
+import AgentScreen from './components/AgentScreen';
+import DisconnetScreen from './components/DisconnetScreen';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/login" component={LoginPage} />
-        <Route exact path="/register" component={RegisterPage} />
-        <Route exact path="/connect" component={ConnectPage} />
-        <Route exact path="/delete" component={DeletePage} />
-        <Route exact path="/agent" component={AgentScreen} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<LoginScreen />} />
+        <Route path="/register" element={<RegisterScreen />} />
+        <Route path="/facebook-integration" element={<FacebookIntegrationPage />} />
+        <Route path="/agent" element={<AgentScreen />} /> 
+        <Route path="/disconnet" element={<DisconnetScreen />} /> 
+      </Routes>
     </Router>
   );
-}
+};
 
 export default App;
