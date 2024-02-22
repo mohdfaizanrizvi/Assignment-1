@@ -1,19 +1,5 @@
   <!-- Dependency Status -->
-<h3> Frontend Deployment Link :https://ricfront.vercel.app/</h3>
-<h3> Backend Deployment Link : https://testt222222.herokuapp.com/</h3>
-
-<p align="center">
-
-  <a href="https://dev-to-uploads.s3.amazonaws.com/i/2xg59r17v72yvqfb3wu5.jpg">
-    <img src="https://forthebadge.com/images/badges/built-with-love.svg"
-         alt="Javascript">
-  </a>
-
-  <a href="https://github.com/umangraval/Smart-Checkout">
-    <img src="https://forthebadge.com/images/badges/for-sharks.svg"
-         alt="Git">
-  </a>
-</p>
+<h3> Deployment Link :https://assignment-1-five-lake.vercel.app/</h3>
 
 <hr />
 
